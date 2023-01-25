@@ -1,0 +1,21 @@
+fun main(){
+    val libro1 = libros("Padre rico, padre pobre","Robert Kiyosaki",207, 10)
+    val libro2 = libros("Prueba2","Yo2",10,2)
+    val libro3 = libros("Prueba3","Yo3",10,3)
+    val libro4 = libros("Prueba4","Yo4",10,4)
+    val libro5 = libros("Prueba5","Yo5",10,5)
+    val libro6 = libros("Prueba6","Yo6",10,6)
+    val libreria = conjuntoDeLibros()
+    libreria.añadir(libro1)
+    libreria.añadir(libro2)
+    libreria.añadir(libro3)
+    libreria.añadir(libro4)
+    libreria.añadir(libro5)
+    libreria.añadir(libro6)
+
+    libreria.imprimir()
+    libreria.eliminarLibro()
+    libreria.imprimir()
+    libreria.eliminarAutor()
+    libreria.imprimir()
+}
